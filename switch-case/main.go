@@ -20,6 +20,8 @@ func main() {
 		day = "Saturday"
 	case 7:
 		day = "Sunday"
+	default:
+		day = "DEFAULT"
 	}
 	fmt.Println(day)
 }
